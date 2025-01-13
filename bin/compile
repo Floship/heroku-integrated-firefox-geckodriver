@@ -83,7 +83,7 @@ case "$STACK" in
     "
     ;;
   *)
-    error "STACK must be 'cedar-14', 'heroku-16', or 'heroku-18' or 'heroku-20' or 'heroku-22'"
+    error "STACK must be 'cedar-14', 'heroku-16', or 'heroku-18' or 'heroku-20' or 'heroku-22' or 'heroku-24"
 esac
 
 if [ ! -f $CACHE_DIR/PURGED_CACHE_V1 ]; then
